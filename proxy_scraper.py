@@ -38,7 +38,7 @@ TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 TELEGRAM_CHAT_ID   = "YOUR_CHAT_ID_HERE"
 
 TARGET_COUNT    = 500    # stop & send when this many valid proxies found
-MAX_LATENCY_MS  = 200    # only keep proxies faster than this (ms)
+MAX_LATENCY_MS  = 1500    # only keep proxies faster than this (ms)
 WORKERS         = 2000   # concurrent async workers (safe for 7GB RAM)
 SCRAPE_TIMEOUT  = 12     # seconds to wait for a source page
 CHECK_TIMEOUT   = 4      # seconds for each proxy check (tight = fast)
