@@ -12,7 +12,7 @@ CONFIG (edit below):
   TELEGRAM_BOT_TOKEN = "8842957202:AAF7IIfnBjhTtTd2tc2dm-z_1MrKHiA5-S4"
   TELEGRAM_CHAT_ID   = "8189708860"
   TARGET_COUNT       = 500       # proxies needed before sending
-  MAX_LATENCY_MS     = 200       # max allowed latency in ms
+  MAX_LATENCY_MS     = 1500       # max allowed latency in ms
   WORKERS            = 2000      # concurrent check workers (tune to your RAM)
 """
 
