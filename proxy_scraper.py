@@ -34,8 +34,8 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 # ─────────────────── USER CONFIG ──────────────────────────────────
-TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-TELEGRAM_CHAT_ID   = "YOUR_CHAT_ID_HERE"
+TELEGRAM_BOT_TOKEN = "8842957202:AAF7IIfnBjhTtTd2tc2dm-z_1MrKHiA5-S4"
+TELEGRAM_CHAT_ID   = "8189708860"
 
 TARGET_COUNT    = 500    # stop & send when this many valid proxies found
 MAX_LATENCY_MS  = 1500    # only keep proxies faster than this (ms)
